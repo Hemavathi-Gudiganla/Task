@@ -1,0 +1,35 @@
+#include<studio.h>
+int main(){
+    char operator;
+    double first, second;
+    printf("Enter the operator(+, -, *, /):");
+    scanf("%c",&operator)'
+
+    printf("Enter the two Numbers one by one:");
+    scanf("%if %if".&first, &second);
+
+    switch(operator)
+    {
+    case '+':
+    printf("%if + %if = %if", first,second,(first+second));
+    break;
+    case '-':
+    printf("%if - %if = %if", first,second,(first-second));
+    break;
+    case '*':
+    printf("%if * %if = %if", first,second,(first*second));
+    break;
+    case '/':
+    if(second !=0.0)
+    printf("%if / %if = %if", first,second,(first/second));
+    else
+    printf("Divided by Zero situation");
+    break;
+
+
+    default:
+    printf("Invalid Operator");
+    
+}
+    return 0;
+}

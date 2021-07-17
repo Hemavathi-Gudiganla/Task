@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html <html lang="en">
+<head><head>
+<meta <meta charset="UTF-"8">
+<meta <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Resturant Menu </title>
+<style type="text/css">
+*{
+margin:0;
+padding:0;
+}
+
+body{
+font-family:'cairo',sans-serif;
+backgroung-color:#efefef;
+}
+
+main{
+width:100%;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+width:90%;
+height:95%;
+display:flex;
+}
+
+.Left{
+width:5%;
+font-size:17px;
+display:flex;
+align-items:center;
+flex-direction:column;
+position:absolute;
+margin-top:30px;
+}
+
+
+.nav{
+display:flex;
+flex-direction: column;
+font-size:20px;
+color:#656262;
+margin-top:150px;
+left:30px;
+}
+
+.nav span{
+margin-bottom:50px;
+letter-spacing:3px;
+left:30px;
+}
+
+.active{
+margin-bottom:40px;
+}
+
+.active:before{
+position:absolute;
+content:"";
+width:80px;
+height:2px;
+background-color:#ff7720;
+bottom:75.3%;
+left:7%;
+transform:translateX(-50%);
+}
+
+.center{
+width:80%;
+font-size:40px;
+display:flex;
+align-items:center;
+flex-direction:column;
+position:absolute;
+margin-top:50px;
+}
+
+.Right{
+width:150%;
+font-size:12px;
+display:flex;
+align-items:center;
+flex-direction:column;
+position:absolute;
+margin-top:70px;
+}
+
+.Right:before{
+position:absolute;
+content:"";
+width:80px;
+height:2px;
+background-color:#ff7720;
+bottom:-10%;
+left:7%;
+transform:translateX(1100%);
+}
+
+.image{
+width:100%;
+display:flex;
+justify-content:center;
+align-items:center;
+flex:wrap;
+margin:50px;
+padding:50px;
+}
+
+.image img{
+display:flex;
+justify-content:center;
+align-items:center;
+flex:wrap;
+border-radius:100px;
+border:1px solid #ddd;
+padding:3px;
+border:1px solid #ddd;
+}
+
+.img{
+border-radius:50px;
+border:1px solid #fff000;
+padding:5px;
+margin:5px
+
+}
+
+
+.h4{
+text-transform:capitalize;
+font-size:25px;
+margin-bottom:-550px;
+padding:0px;
+left:250px;
+text-align:center;
+padding-left:50px;
+padding-right:50px;
+position:absolute;
+}
+
+.image h4{
+font-size:10px;
+margin-bottom:-250px;
+padding:0px;
+text-align:center;
+}
+
+.img h4{
+font-size:10px;
+margin-bottom:-250px;
+padding:0px;
+padding-right:50px;
+text-align:center;
+}
+.nav input{
+font-size:15px;
+color:#fff;
+padding:5px;
+border-radius:9px;
+background-color:#e10251;
+}
+
+</style>
+<body>
+<main>
+<div class="container">
+<div class="Left">
+<h2>Lorem<br>Ipsum </h2>
+</div>
+
+
+<div class="nav">
+<span class="active"> About </span>
+<span> Service </span>
+<span> Cuisine </span>
+<span> Gallery </span>
+<span> Contact </span>
+<span> Book </span>
+<input type="submit" value="Cart">
+
+</div>
+
+<div class="center">
+<h1>What are you <br> having for Lunch? </h1>
+</div> 
+
+<div class="Right">
+<h3> Lorem ipsum dolor sit amet,<br> consectuetur adipiscing elit,<br> sed do eiusmod tempor<br>
+incididunt ut labore et.</h3>
+</div>
+
+<div class="image">
+
+<div class="img">
+<img src="1.jpg" alt="" height="150" width="150"</img>
+</div>
+<h4> Mexicon Taco </h4>
+
+
+<div class="img">
+<img src="2.jpg" alt="" height="150" width="150"</img>
+</div>
+<h4> Farmhouse Pizza </h4>
+
+<div class="img">
+<img src="3.jpg" alt="" height="150" width="150"</img>
+</div>
+<h4> Chicken Burger </h4>
+
+<div class="img">
+<img src="4.jpg" alt="" height="150" width="150"</img>
+</div>
+<h4> Loaded Nachos </h4>
+
+<div class="img">
+<img src="5.jpg" alt="" height="150" width="150"</img>
+</div>
+<h4> Hakka Noddles </h4>
+
+</div>
+</div>
+</div>
+</div>
+
+
+</main>
+</body>
+</html>
